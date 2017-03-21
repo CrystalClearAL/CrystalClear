@@ -1,0 +1,257 @@
+#aboveNavBar{
+	/*background-color: #303030;*/
+	background-color: #e3e3eb;
+	padding-top: 5px;
+}
+#topSides{
+	padding-top: 20px;
+	/*background-color: #303030;*/
+}
+
+#topBox{
+	margin-top: 50px;
+	text-align: center;
+}
+.smtopBox{
+	margin-top: 50px;
+	font-family: georgia;
+	font-size: 17px;
+	text-align: center;
+}
+
+#servicesList{
+	list-style-type: square;
+	font-size: 17px;
+	font-family: Georgia;
+	text-align: left;
+}
+
+
+#headingServices{
+	font-family: Georgia;
+	
+}
+#heading{
+	font-size: 300%;
+	background-color: #303030;
+	color:white;
+	font-family: Georgia;
+}
+
+#headingSides{
+	padding-top: 30px;
+	background-color: #303030;
+}
+
+#horizontalRule {
+	margin-top: -0.5em;
+	border-width: 3px;
+	border-color: white;
+}
+
+#sides{
+	background-color: #d1d1d1;
+}
+
+#box{
+	width: 250px;
+	height:150px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#box #windows{
+	background: url(windows.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #driveways{
+	background: url(driveways.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #exterior{
+	background: url(exteriors.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #decks{
+	background: url(decks.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #siding{
+	background: url(siding.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #sidewalks{
+	background: url(sidewalks.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #commercial{
+	background: url(commercial.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#box #bricks{
+	background: url(bricks.jpg);
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+}
+
+#overlay{
+	background: rgba(0,0,0,.7);
+	text-align: center;
+	opacity: 0;
+	padding: 30px 0 55px 0;
+	-webkit-transistion: all 0.3s linear;
+		-moz-transition: all 0.3s linear;
+		 -ms-transition: all 0.3s linear;
+		  -o-transition: all 0.3s linear;
+		     transition: all 0.3s linear;
+}
+
+#box:hover #overlay{
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+}
+#plus{
+	font-family: Helvetico;
+	font-weight: 100;
+	color: white;
+	font-size: 50px;
+}
+
+#minus{
+	font-family: Helvetico;
+	font-weight: 100;
+	color: white;
+	font-size: 40px;
+}
+
+#picsOnImage{
+	position: absolute;
+	width: 100%;
+	top:200px;
+	left:0;
+}
+
+#pics{
+	color:white;
+	text-align: center;
+	font-size: 30px;
+	font-family: Georgia;
+}
+
+#picsSides{
+	background-color: #303030;
+}
+
+#comments{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #18a8f5;
+	font-size: 20px;
+	font-style: italic;
+	
+}
+#commentParagraph{
+	color:white;
+	text-align: center;
+	
+	font-family: Georgia;
+}
+#commentSide{
+	background-color: #18a8f5;
+}
+#bottom{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #303030;
+	color: #18a8f5;
+}
+#bottomNav{
+	list-style: none;
+	padding:0px;
+	color:white;
+}
+
+#bottomNav li{
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+#verse{
+	color:white;
+	padding-top: 20px;
+	font-size: 15px;
+}
+#contact{
+	color:black;
+	font-weight: bold;
+	font-family: MV Boli;
+}
+#address{
+	color: white;
+	font-size: 15px;
+}
+.link{
+	max-width:170px;
+	min-width: 150px;
+	font-size: 14px;
+	font-family:Arial Black;
+	font-weight: bold;
+	font-size: 17px;
+	text-transform: uppercase;
+	color:red;
+	background: #303030;
+	padding: 12px 17px;
+	border: 3px solid #31302B;
+	border-color: #18a8f5;
+	border-radius: 2px;
+	display: inline-block;
+	text-align: center;
+	box-shadow: inset 0 0 0 0 #18a8f5;
+
+	-webkit-transition: all ease width 0.8s;
+	-mox-transition: all ease .8s;
+	transition: all ease 0.8s;
+}
+#free:link{
+	color:white;
+}
+#free:visited{
+	color:white;
+}
+
+#free:link{
+	color:white;
+	text-decoration: none;
+}
+#free:visited{
+	color:white;
+}
+.link:hover{
+	box-shadow: inset 250px 0 0 0 #18a8f5;
+	color: #FFF;
+	
+}
+#BBB {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:8em;
+}
+#llc{
+	color:white;
+	text-align: center;
+}
